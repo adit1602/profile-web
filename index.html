@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>VACATION PARADISE</h1>
+        <p>Puncak Keindahan Liburan</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sejarah.html">Sejarah</a></li>
+          <li><a href="index.html">contact</a></li>
+          <li><a href="#contact">service</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="wisat1" class="card">
+          <h2>Pulau Jeju</h2>
+          <img src="assets/img/jeju.jpeg" class="featured-image" alt="wisata" />
+          <p>
+            Pulau Jeju (Jeju-do) adalah pulau terbesar di Korea dan terletak di sebelah selatan Semenanjung Korea. Pulau Jeju adalah satu-satunya provinsi berotonomi khusus Korea Selatan
+
+Terletak di Selat Korea, sebelah barat daya Provinsi Jeolla Selatan, yang dahulunya merupakan satu provinsi sebelum terbagi pada tahun 1946. Ibu kota Jeju adalah Kota Jeju (Jeju-si).
+          </p>
+        </article>
+
+        <article id="wisata2" class="card">
+          <h2>Sejarah</h2>
+          <img src="assets/img/kuta.jpg" class="featured-image" alt="wisata" />
+          <p>
+            Pantai Kuta adalah sebuah tempat pariwisata yang terletak di kecamatan Kuta sebelah selatan Kota Denpasar, Bali, Indonesia. Daerah ini merupakan sebuah tujuan wisata turis mancanegara dan telah menjadi objek wisata andalan Pulau Bali sejak awal tahun 1970-an. Pantai Kuta sering pula disebut sebagai pantai matahari terbenam sebagai lawan dari pantai Sanur. Selain itu, Lapangan Udara I Gusti Ngurah Rai terletak tidak jauh dari Kuta.
+          </p>
+        </article>
+
+        <article id="wisata3" class="card">
+          <h2>swiss</h2>
+          <img src="assets/img/swiss.jpeg" class="featured-image" alt="wisata" />
+          <p>
+            Swiss, secara resmi bernama Konfederasi Swiss (Jerman: Schweiz, Prancis: Suisse, bahasa Italia: Svizzera, bahasa Romansh: Svizra, bahasa Latin: Confoederatio Helvetica), adalah negara federal berisi 26 kanton di Eropa Tengah yang berbatasan dengan Jerman di utara, Perancis di barat, Italia di selatan, Liechtenstein dan Austria di timur. Swiss adalah negara yang sebagian besar wilayahnya terdiri dari Pegunungan Alpen. Swiss dikenal sebagai negara netral namun tetap memiliki kerja sama internasional yang kuat.
+          </p>
+        </article>
+      </div>
+
+      <aside>
+        <article class="biodata card">
+          <div>
+            <figure>
+              <img src="assets/img/download.jpeg" alt="ultraman" />
+              <figcaption>Penulis adalah seorang ultraman</figcaption>
+            </figure>
+          </div>
+          <section>
+            <h3>Biodata Penulis</h3>
+            <table>
+              <tr>
+                <th>Nama Lengkap</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>TTL</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Pekerjaan</th>
+                <td>Mahasiswa</td>
+              </tr>
+              <tr>
+                <th>Instansi</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Jurusan</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Makanan Favorit</th>
+                <td>Mie Ayam Bakso</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+        <section>
+          <div class="card-container card">
+            <!--input data identitas total-->
+            <div id="inputData">
+              <h1>Komentar dan Saran</h1>
+
+              <input type="text" id="yourName" placeholder="Nama"/ required>
+              <br /><br />
+
+              <input type="text" id="yourID" placeholder="NIM"/ required>
+              <br /><br />
+
+              <input type="text" id="yourProdi" placeholder="Prodi"/ required>
+              <br /><br />
+
+              <textarea id="yourComment" placeholder="Komentar" rows="4" cols="30" required></textarea>
+              <br /><br />
+              <button type="button" onclick="inputIdentitas()">Submit</button>
+            </div>
+            <br /><br />
+
+      </aside>
+    </main>
+
+    <!-- Akhir Contact -->
+    <script src="script.js"></script>
+
+    <footer>
+      <p>copyright 2023 &copy;. </p>
+    </footer>
+  </body>
+</html>
